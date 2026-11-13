@@ -1,0 +1,1821 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-30T00:00:00+00:00",
+  "source_versions": {
+    "operations": "r1",
+    "reference": "r1"
+  },
+  "catalog": [
+    "sheet",
+    "cover",
+    "pillow",
+    "towel"
+  ],
+  "availability": [
+    {
+      "sku": "sheet",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available": true
+    },
+    {
+      "sku": "cover",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available": false
+    },
+    {
+      "sku": "pillow",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available": true
+    },
+    {
+      "sku": "towel",
+      "start": "2026-08-01T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available": true
+    },
+    {
+      "sku": "cover",
+      "start": "2026-09-10T00:00:00+00:00",
+      "end": "2026-10-30T00:00:00+00:00",
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "order-0",
+      "buyer_id": "buyer-0",
+      "placed_at": "2026-08-01T00:00:00+00:00",
+      "available_at": "2026-08-01T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-0-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-0-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-1",
+      "buyer_id": "buyer-1",
+      "placed_at": "2026-08-02T00:00:00+00:00",
+      "available_at": "2026-08-02T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-1-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-1-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-2",
+      "buyer_id": "buyer-2",
+      "placed_at": "2026-08-03T00:00:00+00:00",
+      "available_at": "2026-08-03T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-2-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-2-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-3",
+      "buyer_id": "buyer-3",
+      "placed_at": "2026-08-04T00:00:00+00:00",
+      "available_at": "2026-08-04T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-3-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-3-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-4",
+      "buyer_id": "buyer-4",
+      "placed_at": "2026-08-05T00:00:00+00:00",
+      "available_at": "2026-08-05T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-4-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-4-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-5",
+      "buyer_id": "buyer-5",
+      "placed_at": "2026-08-06T00:00:00+00:00",
+      "available_at": "2026-08-06T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-5-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-5-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-6",
+      "buyer_id": "buyer-6",
+      "placed_at": "2026-08-07T00:00:00+00:00",
+      "available_at": "2026-08-07T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-6-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-6-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-7",
+      "buyer_id": "buyer-7",
+      "placed_at": "2026-08-08T00:00:00+00:00",
+      "available_at": "2026-08-08T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-7-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-7-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-8",
+      "buyer_id": "buyer-8",
+      "placed_at": "2026-08-09T00:00:00+00:00",
+      "available_at": "2026-08-09T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-8-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-8-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-9",
+      "buyer_id": "buyer-9",
+      "placed_at": "2026-08-10T00:00:00+00:00",
+      "available_at": "2026-08-10T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-9-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-9-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-10",
+      "buyer_id": "buyer-10",
+      "placed_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-11T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-10-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-10-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-11",
+      "buyer_id": "buyer-11",
+      "placed_at": "2026-08-12T00:00:00+00:00",
+      "available_at": "2026-08-12T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-11-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-11-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-12",
+      "buyer_id": "buyer-12",
+      "placed_at": "2026-08-13T00:00:00+00:00",
+      "available_at": "2026-08-13T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-12-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-12-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-13",
+      "buyer_id": "buyer-13",
+      "placed_at": "2026-08-14T00:00:00+00:00",
+      "available_at": "2026-08-14T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-13-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-13-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-14",
+      "buyer_id": "buyer-14",
+      "placed_at": "2026-08-15T00:00:00+00:00",
+      "available_at": "2026-08-15T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-14-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-14-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-15",
+      "buyer_id": "buyer-15",
+      "placed_at": "2026-08-16T00:00:00+00:00",
+      "available_at": "2026-08-16T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-15-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-15-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-16",
+      "buyer_id": "buyer-16",
+      "placed_at": "2026-08-17T00:00:00+00:00",
+      "available_at": "2026-08-17T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-16-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-16-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-17",
+      "buyer_id": "buyer-0",
+      "placed_at": "2026-08-18T00:00:00+00:00",
+      "available_at": "2026-08-18T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-17-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-17-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-18",
+      "buyer_id": "buyer-1",
+      "placed_at": "2026-08-19T00:00:00+00:00",
+      "available_at": "2026-08-19T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-18-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-18-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-19",
+      "buyer_id": "buyer-2",
+      "placed_at": "2026-08-20T00:00:00+00:00",
+      "available_at": "2026-08-20T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-19-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-19-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-20",
+      "buyer_id": "buyer-3",
+      "placed_at": "2026-08-21T00:00:00+00:00",
+      "available_at": "2026-08-21T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-20-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-20-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-21",
+      "buyer_id": "buyer-4",
+      "placed_at": "2026-08-22T00:00:00+00:00",
+      "available_at": "2026-08-22T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-21-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-21-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-22",
+      "buyer_id": "buyer-5",
+      "placed_at": "2026-08-23T00:00:00+00:00",
+      "available_at": "2026-08-23T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-22-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-22-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-23",
+      "buyer_id": "buyer-6",
+      "placed_at": "2026-08-24T00:00:00+00:00",
+      "available_at": "2026-08-24T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-23-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-23-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-24",
+      "buyer_id": "buyer-7",
+      "placed_at": "2026-08-25T00:00:00+00:00",
+      "available_at": "2026-08-25T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-24-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-24-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-25",
+      "buyer_id": "buyer-8",
+      "placed_at": "2026-08-26T00:00:00+00:00",
+      "available_at": "2026-08-26T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-25-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-25-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-26",
+      "buyer_id": "buyer-9",
+      "placed_at": "2026-08-27T00:00:00+00:00",
+      "available_at": "2026-08-27T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-26-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-26-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-27",
+      "buyer_id": "buyer-10",
+      "placed_at": "2026-08-28T00:00:00+00:00",
+      "available_at": "2026-08-28T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-27-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-27-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-28",
+      "buyer_id": "buyer-11",
+      "placed_at": "2026-08-29T00:00:00+00:00",
+      "available_at": "2026-08-29T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-28-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-28-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-29",
+      "buyer_id": "buyer-12",
+      "placed_at": "2026-08-30T00:00:00+00:00",
+      "available_at": "2026-08-30T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-29-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-29-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-30",
+      "buyer_id": "buyer-13",
+      "placed_at": "2026-08-31T00:00:00+00:00",
+      "available_at": "2026-08-31T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-30-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-30-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-31",
+      "buyer_id": "buyer-14",
+      "placed_at": "2026-09-01T00:00:00+00:00",
+      "available_at": "2026-09-01T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-31-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-31-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-32",
+      "buyer_id": "buyer-15",
+      "placed_at": "2026-09-02T00:00:00+00:00",
+      "available_at": "2026-09-02T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-32-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-32-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-33",
+      "buyer_id": "buyer-16",
+      "placed_at": "2026-09-03T00:00:00+00:00",
+      "available_at": "2026-09-03T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-33-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-33-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-34",
+      "buyer_id": "buyer-0",
+      "placed_at": "2026-09-04T00:00:00+00:00",
+      "available_at": "2026-09-04T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-34-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-34-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-35",
+      "buyer_id": "buyer-1",
+      "placed_at": "2026-09-05T00:00:00+00:00",
+      "available_at": "2026-09-05T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-35-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-35-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-36",
+      "buyer_id": "buyer-2",
+      "placed_at": "2026-09-06T00:00:00+00:00",
+      "available_at": "2026-09-06T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-36-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-36-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-37",
+      "buyer_id": "buyer-3",
+      "placed_at": "2026-09-07T00:00:00+00:00",
+      "available_at": "2026-09-07T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-37-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-37-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-38",
+      "buyer_id": "buyer-4",
+      "placed_at": "2026-09-08T00:00:00+00:00",
+      "available_at": "2026-09-08T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-38-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-38-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-39",
+      "buyer_id": "buyer-5",
+      "placed_at": "2026-09-09T00:00:00+00:00",
+      "available_at": "2026-09-09T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-39-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-39-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-40",
+      "buyer_id": "buyer-6",
+      "placed_at": "2026-09-10T00:00:00+00:00",
+      "available_at": "2026-09-10T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-40-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-40-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-41",
+      "buyer_id": "buyer-7",
+      "placed_at": "2026-09-11T00:00:00+00:00",
+      "available_at": "2026-09-11T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-41-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-41-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-42",
+      "buyer_id": "buyer-8",
+      "placed_at": "2026-09-12T00:00:00+00:00",
+      "available_at": "2026-09-12T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-42-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-42-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-43",
+      "buyer_id": "buyer-9",
+      "placed_at": "2026-09-13T00:00:00+00:00",
+      "available_at": "2026-09-13T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-43-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-43-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-44",
+      "buyer_id": "buyer-10",
+      "placed_at": "2026-09-14T00:00:00+00:00",
+      "available_at": "2026-09-14T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-44-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-44-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-45",
+      "buyer_id": "buyer-11",
+      "placed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-45-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-45-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-46",
+      "buyer_id": "buyer-12",
+      "placed_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-46-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-46-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-47",
+      "buyer_id": "buyer-13",
+      "placed_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-47-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-47-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-48",
+      "buyer_id": "buyer-14",
+      "placed_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-48-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-48-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-49",
+      "buyer_id": "buyer-15",
+      "placed_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-49-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-49-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-50",
+      "buyer_id": "buyer-16",
+      "placed_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-20T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-50-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-50-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-51",
+      "buyer_id": "buyer-0",
+      "placed_at": "2026-09-21T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-51-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-51-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-52",
+      "buyer_id": "buyer-1",
+      "placed_at": "2026-09-22T00:00:00+00:00",
+      "available_at": "2026-09-22T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-52-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-52-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-53",
+      "buyer_id": "buyer-2",
+      "placed_at": "2026-09-23T00:00:00+00:00",
+      "available_at": "2026-09-23T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-53-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-53-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-54",
+      "buyer_id": "buyer-3",
+      "placed_at": "2026-09-24T00:00:00+00:00",
+      "available_at": "2026-09-24T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-54-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-54-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-55",
+      "buyer_id": "buyer-4",
+      "placed_at": "2026-09-25T00:00:00+00:00",
+      "available_at": "2026-09-25T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-55-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-55-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-56",
+      "buyer_id": "buyer-5",
+      "placed_at": "2026-09-26T00:00:00+00:00",
+      "available_at": "2026-09-26T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-56-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-56-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-57",
+      "buyer_id": "buyer-6",
+      "placed_at": "2026-09-27T00:00:00+00:00",
+      "available_at": "2026-09-27T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-57-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-57-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-58",
+      "buyer_id": "buyer-7",
+      "placed_at": "2026-09-28T00:00:00+00:00",
+      "available_at": "2026-09-28T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-58-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-58-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-59",
+      "buyer_id": "buyer-8",
+      "placed_at": "2026-09-29T00:00:00+00:00",
+      "available_at": "2026-09-29T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-59-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-59-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-60",
+      "buyer_id": "buyer-9",
+      "placed_at": "2026-09-30T00:00:00+00:00",
+      "available_at": "2026-09-30T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-60-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-60-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-61",
+      "buyer_id": "buyer-10",
+      "placed_at": "2026-10-01T00:00:00+00:00",
+      "available_at": "2026-10-01T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-61-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-61-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-62",
+      "buyer_id": "buyer-11",
+      "placed_at": "2026-10-02T00:00:00+00:00",
+      "available_at": "2026-10-02T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-62-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-62-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-63",
+      "buyer_id": "buyer-12",
+      "placed_at": "2026-10-03T00:00:00+00:00",
+      "available_at": "2026-10-03T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-63-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-63-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-64",
+      "buyer_id": "buyer-13",
+      "placed_at": "2026-10-04T00:00:00+00:00",
+      "available_at": "2026-10-04T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-64-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-64-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-65",
+      "buyer_id": "buyer-14",
+      "placed_at": "2026-10-05T00:00:00+00:00",
+      "available_at": "2026-10-05T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-65-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-65-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-66",
+      "buyer_id": "buyer-15",
+      "placed_at": "2026-10-06T00:00:00+00:00",
+      "available_at": "2026-10-06T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-66-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-66-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-67",
+      "buyer_id": "buyer-16",
+      "placed_at": "2026-10-07T00:00:00+00:00",
+      "available_at": "2026-10-07T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-67-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-67-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-68",
+      "buyer_id": "buyer-0",
+      "placed_at": "2026-10-08T00:00:00+00:00",
+      "available_at": "2026-10-08T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-68-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-68-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-69",
+      "buyer_id": "buyer-1",
+      "placed_at": "2026-10-09T00:00:00+00:00",
+      "available_at": "2026-10-09T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-69-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-69-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-70",
+      "buyer_id": "buyer-2",
+      "placed_at": "2026-10-10T00:00:00+00:00",
+      "available_at": "2026-10-10T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-70-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-70-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-71",
+      "buyer_id": "buyer-3",
+      "placed_at": "2026-10-11T00:00:00+00:00",
+      "available_at": "2026-10-11T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-71-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-71-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-72",
+      "buyer_id": "buyer-4",
+      "placed_at": "2026-10-12T00:00:00+00:00",
+      "available_at": "2026-10-12T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-72-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-72-2",
+          "sku": "towel",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-73",
+      "buyer_id": "buyer-5",
+      "placed_at": "2026-10-13T00:00:00+00:00",
+      "available_at": "2026-10-13T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-73-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-73-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "order-74",
+      "buyer_id": "buyer-6",
+      "placed_at": "2026-10-14T00:00:00+00:00",
+      "available_at": "2026-10-14T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "line-74-1",
+          "sku": "sheet",
+          "quantity": 1
+        },
+        {
+          "line_id": "line-74-2",
+          "sku": "pillow",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-0",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-0-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-0-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-1",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-1-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-1-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-2",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-2-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-2-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-3",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-3-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-3-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-4",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-4-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-4-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-5",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-20T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-5-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-5-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-6",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-21T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-6-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-6-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-7",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-22T00:00:00+00:00",
+      "available_at": "2026-09-22T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-7-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-7-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-8",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-23T00:00:00+00:00",
+      "available_at": "2026-09-23T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-8-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-8-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-9",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-24T00:00:00+00:00",
+      "available_at": "2026-09-24T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-9-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-9-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-10",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-10-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-10-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-11",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-11-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-11-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-12",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-17T00:00:00+00:00",
+      "available_at": "2026-09-17T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-12-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-12-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-13",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-18T00:00:00+00:00",
+      "available_at": "2026-09-18T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-13-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-13-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-14",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-19T00:00:00+00:00",
+      "available_at": "2026-09-19T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-14-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-14-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-15",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-20T00:00:00+00:00",
+      "available_at": "2026-09-20T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-15-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-15-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-16",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-21T00:00:00+00:00",
+      "available_at": "2026-09-21T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-16-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-16-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-17",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-22T00:00:00+00:00",
+      "available_at": "2026-09-22T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-17-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-17-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-18",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-23T00:00:00+00:00",
+      "available_at": "2026-09-23T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-18-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-18-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-19",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-24T00:00:00+00:00",
+      "available_at": "2026-09-24T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-19-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-19-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-20",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-15T00:00:00+00:00",
+      "available_at": "2026-09-15T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-20-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-20-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "order_id": "repeat-21",
+      "buyer_id": "buyer-wholesale",
+      "placed_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-09-16T00:00:00+00:00",
+      "lines": [
+        {
+          "line_id": "repeat-line-21-1",
+          "sku": "cover",
+          "quantity": 10
+        },
+        {
+          "line_id": "repeat-line-21-2",
+          "sku": "sheet",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "revision_id": "return-1",
+      "order_id": "order-8",
+      "line_id": "line-8-2",
+      "kind": "return",
+      "quantity": 2,
+      "effective_at": "2026-08-11T00:00:00+00:00",
+      "available_at": "2026-08-13T00:00:00+00:00"
+    },
+    {
+      "revision_id": "return-2",
+      "order_id": "repeat-0",
+      "line_id": "repeat-line-0-1",
+      "kind": "return",
+      "quantity": 10,
+      "effective_at": "2026-09-16T00:00:00+00:00",
+      "available_at": "2026-11-04T00:00:00+00:00"
+    }
+  ],
+  "analysis": {
+    "proposal_end": "2026-09-20T00:00:00+00:00",
+    "validation_end": "2026-10-15T00:00:00+00:00",
+    "min_buyers": 3,
+    "max_rules": 8
+  },
+  "baseline_case_id": "b2b_reorder_network-demo"
+}
